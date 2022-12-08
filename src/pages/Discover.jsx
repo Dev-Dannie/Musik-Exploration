@@ -3,9 +3,10 @@ import { Error, Loader, SongCard } from '../components';
 import {genres} from '../assets/constants';
 import {useGetTopChartsQuery} from '../redux/services/shazamCore';
 
+
 const Discover = () => {
  const dispatch = useDispatch();
- const { } = useSelector();
+ const {activeSong, isPlaying } = useSelector((state) => state.player);
 
 const {data, isFetching, error} = useGetTopChartsQuery();
 const genreTitle = 'Pop'
@@ -40,6 +41,9 @@ return (
                 <SongCard 
                 key={song.key}
                 song={song}
+                activeSong={activeSong}
+                data={data}
+                isPlaying={isPlaying}
                 i={i}
                 />
             ))}
