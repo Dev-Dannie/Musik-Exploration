@@ -36,6 +36,7 @@ return (
             </p>
         </div>
     </div>
+    <div className='w-full h-24 sm:h-44'/>
   </div>
 )
 };
