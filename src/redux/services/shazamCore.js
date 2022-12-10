@@ -18,6 +18,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
                 ({songid}) =>`/tracks/details?track_id=${songid}` }),
                 getSongRelated: builder.query({ query: 
                     ({songid}) =>`/tracks/related?track_id=${songid}` }),
+                    getArtistDetails: builder.query({ query: 
+                        (artistId) =>`/artists/details?artist_id=${artistId}` }),
         }),
     })
 
@@ -25,4 +27,5 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
         useGetTopChartsQuery,
         useGetSongDetailsQuery,
         useGetSongRelatedQuery,
+        useGetArtistDetailsQuery,
     } = shazamCoreApi;

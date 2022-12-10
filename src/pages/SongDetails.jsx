@@ -43,9 +43,10 @@ if (error) return <Error />
         <RelatedSongs 
         data={data} 
         isPlaying={isPlaying}
-        activeSong={activeSong}/>
+        activeSong={activeSong}
         handlePauseClick={handlePauseClick}
         handlePlayClick={handlePlayClick}
+        />
      </div>
    )
 }
