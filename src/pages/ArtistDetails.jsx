@@ -26,7 +26,8 @@ if (error) return <Error />
         data={Object.values(artistData?.songs)}
         artistId={artistId} 
         isPlaying={isPlaying}
-        activeSong={activeSong}/>
+        activeSong={activeSong}
+        />
      </div>
    )
 }

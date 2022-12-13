@@ -9,14 +9,14 @@ const RelatedSongs = ({data,isPlaying,activeSong,handlePauseClick, artistId,hand
     <div className="w-full flex flex-col mt-6">
       {data?.map((song, i) => (
         <SongBar
-        key={`${song.key}~${artistId}`}
+        key={`${song.key}-${artistId}-${i}`}
         song={song}
         i={i}
         artistId={artistId}
         isPlaying={isPlaying}
         activeSong={activeSong}
-        handlePauseClick={handlePauseClick}
-        handlePlayClick={handlePlayClick}/>
+        handlePause={handlePauseClick}
+        handlePlay={handlePlayClick}/>
       ))}
     </div>
   </div>

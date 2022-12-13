@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const handleSubmit = (e) => {
 }
 
 return (
-  <form autoComplete="off"
+  <form onSubmit={handleSubmit} autoComplete="off"
   className="p-2 text-gray-400 
   focus-within:text-gray-600">
       <label htmlFor="search-field"
