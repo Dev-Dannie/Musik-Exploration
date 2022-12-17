@@ -1,4 +1,4 @@
-# Project Lyrics
+#Music App Project
 
 Develop an elegant React.js Music Application. 
 
@@ -7,7 +7,6 @@ Check out the complete project requirements [here](https://docs.google.com/docum
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 
 ## System Requirements
@@ -82,7 +81,7 @@ To set up a development environment, please follow these steps:
 
 ## Issues
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help by submitting an issue. Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
